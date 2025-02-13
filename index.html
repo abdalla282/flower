@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Valentine's Day</title>
+  <title>For my Mely💗</title>
   <style>
     * {
       margin: 0;
@@ -13,42 +13,49 @@
     }
 
     body {
-      background: #121212; /* Black background */
-      color: #fff; /* White text */
-      min-height: 100vh;
+      background: #1a1a1a;
+      color: #fff;
       display: flex;
       flex-direction: column;
       align-items: center;
       justify-content: center;
+      height: 100vh;
+      text-align: center;
     }
 
     h1 {
-      color: #ff0000; /* Red color for the title */
-      font-size: 3rem;
+      color: #ff3366;
+      font-size: 3.5rem;
       margin-bottom: 1rem;
     }
 
-    .heart {
-      color: red;
-      font-size: 2rem;
+    .architecture-icon {
+      font-size: 2.5rem;
       display: inline-block;
-      animation: pulse 1.5s ease-in-out infinite;
+      color: #ffcc00;
+      animation: pulse 1.5s infinite;
     }
 
-    .flower-btn {
-      background-color: #ff0000; /* Red background */
+    .message {
+      font-size: 1.4rem;
+      margin-bottom: 20px;
+      max-width: 600px;
+    }
+
+    .button {
+      background-color: #ff3366;
       color: white;
       padding: 1rem 2rem;
-      border-radius: 10px;
+      border-radius: 50px;
       border: none;
-      font-size: 1.2rem;
+      font-size: 1.3rem;
       cursor: pointer;
-      transition: background-color 0.3s ease;
+      transition: 0.3s;
       margin-top: 20px;
     }
 
-    .flower-btn:hover {
-      background-color: #b30000; /* Darker red on hover */
+    .button:hover {
+      background-color: #cc0044;
     }
 
     @keyframes pulse {
@@ -57,25 +64,25 @@
     }
 
     .footer {
-      text-align: center;
-      padding: 2rem;
-      color: #ff0000; /* Red footer text */
+      margin-top: 30px;
+      font-size: 1.2rem;
+      color: #ffcc00;
     }
   </style>
 </head>
 <body>
-  <h1>Happy Valentine's Day Melina<span class="heart">♥</span></h1>
-  <button class="flower-btn" onclick="openNewFile()">Click Here</button>
+  <h1>Happy Valentine's Day, Melina <span class="architecture-icon">💗</span></h1>
+  <p class="message">For my incredible architect and an even more amazing person. Hope your day is as amazing as you are💗.</p>
+  <button class="button" onclick="openSurprise()">Click Here</button>
 
   <script>
-    function openNewFile() {
-      window.open('flowers.html', '_blank'); // Replace 'index.html' with your HTML file path
+    function openSurprise() {
+      window.open('flowers.html', '_blank');
     }
   </script>
 
   <div class="footer">
-    <p>With all my love, Abdallah</p>
-    <span class="heart">♥</span>
+    <p>Your Do💗</p>
   </div>
 </body>
 </html>
